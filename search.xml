@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title></title>
+      <link href="/shengeyan/2022/03060.html"/>
+      <url>/shengeyan/2022/03060.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h1><ul><li><p>准备一个gitee（码云）或github账号</p><p><a href="https://gitee.com/">gitee</a></p><p><a href="https://github.com/">github</a></p></li><li><p>并在账号下注册仓库(个人设置内)</p></li></ul><ul><li><p>安装<a href="https://nodejs.org/zh-cn/download/">nodejs</a></p><p>详细<a href="%5Bhttps://blog.csdn.net/weixin_44893902/article/details/121788104?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164609517116780269856876%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=164609517116780269856876&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-121788104.pc_search_result_control_group&utm_term=nodejs%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE&spm=1018.2226.3001.4187%5D(https://blog.csdn.net/weixin_44893902/article/details/121788104?ops_request_misc=%7B%22request_id%22:%22164609517116780269856876%22,%22scm%22:%2220140713.130102334..%22%7D&request_id=164609517116780269856876&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-121788104.pc_search_result_control_group&utm_term=nodejs%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE&spm=1018.2226.3001.4187)">安装教程</a> (注意计算机环境的配置)</p></li><li><p>安装<a href="https://www.npmjs.com/">npm</a>(有版本node含有npm)</p></li><li><p>安装<a href="https://git-scm.com/downloads">git</a>  (类似cmd)</p><p>git<a href="%5Bhttps://blog.csdn.net/mukes/article/details/115693833?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164609601616780269848368%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=164609601616780269848368&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-115693833.pc_search_result_control_group&utm_term=git%E5%AE%89%E8%A3%85&spm=1018.2226.3001.4187%5D(https://blog.csdn.net/mukes/article/details/115693833?ops_request_misc=%7B%22request_id%22:%22164609601616780269848368%22,%22scm%22:%2220140713.130102334..%22%7D&request_id=164609601616780269848368&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-115693833.pc_search_result_control_group&utm_term=git%E5%AE%89%E8%A3%85&spm=1018.2226.3001.4187)">安装教程</a> </p></li><li><p>安装<a href="%E6%B7%98%E5%AE%9D%E4%BA%91">cnpm</a>（因为npm国内下载慢且容易失败，可以准备镜像）</p><p> 用git进行cnpm的安装：</p><p>输入以下命令：npm install -g cnpm -registry=<a href="https://registry.npm.taobao.org/">https://registry.npm.taobao.org</a></p></li><li><p>安装hexo</p></li></ul><h1 id="博客部署"><a href="#博客部署" class="headerlink" title="博客部署"></a>博客部署</h1><ul><li><p>检查nodejs，npm，cnpm，hexo</p><p>输入以下命令：</p><p>node -v</p><p>npm -v</p><p>cnpm -v</p><p>hexo -v</p><p>git -v</p></li></ul><p>出现了版本号即成功安装</p><ul><li><p>检查本地部署情况</p><p>启动hexo：hexo s</p><p>（出现<a href="http://localhost:4000时即是本地博客建立成功）">http://localhost:4000时即是本地博客建立成功）</a></p></li></ul><h1 id="博客个性设置"><a href="#博客个性设置" class="headerlink" title="博客个性设置"></a>博客个性设置</h1>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/shengeyan/2022/021616107.html"/>
       <url>/shengeyan/2022/021616107.html</url>
