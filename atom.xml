@@ -6,7 +6,7 @@
   <link href="https://gitee.com/shengeyan/shengeyan.git/atom.xml" rel="self"/>
   
   <link href="https://gitee.com/shengeyan/shengeyan.git/"/>
-  <updated>2022-03-23T02:05:10.396Z</updated>
+  <updated>2022-08-21T10:22:01.832Z</updated>
   <id>https://gitee.com/shengeyan/shengeyan.git/</id>
   
   <author>
@@ -17,11 +17,61 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>CSS稿</title>
+    <link href="https://gitee.com/shengeyan/shengeyan.git/2022/082164533.html"/>
+    <id>https://gitee.com/shengeyan/shengeyan.git/2022/082164533.html</id>
+    <published>2022-08-21T10:20:22.915Z</published>
+    <updated>2022-08-21T10:22:01.832Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;查阅文档&quot;&gt;&lt;a href=&quot;#查阅文档&quot; class=&quot;headerlink&quot; title=&quot;查阅文档&quot;&gt;&lt;/a&gt;查阅文档&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="前端" scheme="https://gitee.com/shengeyan/shengeyan.git/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTML稿</title>
+    <link href="https://gitee.com/shengeyan/shengeyan.git/2022/08212417.html"/>
+    <id>https://gitee.com/shengeyan/shengeyan.git/2022/08212417.html</id>
+    <published>2022-08-21T10:20:22.913Z</published>
+    <updated>2022-08-21T10:22:54.204Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;html是一种标记语言&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;web标准的构成：&quot;&gt;&lt;a href=&quot;#web标准的构成：&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="前端" scheme="https://gitee.com/shengeyan/shengeyan.git/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>hexo的插件&amp;网站</title>
     <link href="https://gitee.com/shengeyan/shengeyan.git/2022/032358922.html"/>
     <id>https://gitee.com/shengeyan/shengeyan.git/2022/032358922.html</id>
     <published>2022-03-23T01:58:59.750Z</published>
-    <updated>2022-03-23T02:05:10.396Z</updated>
+    <updated>2022-03-23T02:05:35.645Z</updated>
     
     
       
