@@ -6,7 +6,7 @@
   <link href="https://gitee.com/shengeyan/shengeyan.git/atom.xml" rel="self"/>
   
   <link href="https://gitee.com/shengeyan/shengeyan.git/"/>
-  <updated>2023-03-16T01:48:39.260Z</updated>
+  <updated>2023-03-16T01:58:04.425Z</updated>
   <id>https://gitee.com/shengeyan/shengeyan.git/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>框架（一）</title>
+    <link href="https://gitee.com/shengeyan/shengeyan.git/2023/031635073.html"/>
+    <id>https://gitee.com/shengeyan/shengeyan.git/2023/031635073.html</id>
+    <published>2023-03-16T00:37:22.685Z</published>
+    <updated>2023-03-16T01:58:04.425Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前端框架简介&quot;&gt;&lt;a href=&quot;#前端框架简介&quot; class=&quot;headerlink&quot; title=&quot;前端框架简介&quot;&gt;&lt;/a&gt;前端框架简介&lt;/h1&gt;&lt;h2 id=&quot;解决什么问题&quot;&gt;&lt;a href=&quot;#解决什么问题&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="前端框架" scheme="https://gitee.com/shengeyan/shengeyan.git/tags/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/"/>
+    
+  </entry>
   
   <entry>
     <title>Java稿</title>

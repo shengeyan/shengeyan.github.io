@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Java稿, 沈歌宴">
+    <meta name="keywords" content="框架（一）, 沈歌宴">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Java稿 | 沈歌宴</title>
+    <title>框架（一） | 沈歌宴</title>
     <link rel="icon" type="image/png" href="/shengeyan/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/shengeyan/libs/awesome/css/all.css">
@@ -263,7 +263,7 @@
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Java稿</h1>
+                    <h1 class="description center-align post-title">框架（一）</h1>
                 </div>
             </div>
         </div>
@@ -379,8 +379,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/shengeyan/tags/%E8%AF%AD%E8%A8%80/">
-                                <span class="chip bg-color">语言</span>
+                            <a href="/shengeyan/tags/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/">
+                                <span class="chip bg-color">前端框架</span>
                             </a>
                         
                     </div>
@@ -416,17 +416,102 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="JAVA"><a href="#JAVA" class="headerlink" title="JAVA"></a>JAVA</h1><h2 id="输出"><a href="#输出" class="headerlink" title="输出"></a>输出</h2><p>语法：printf print println</p>
+                <h1 id="前端框架简介"><a href="#前端框架简介" class="headerlink" title="前端框架简介"></a>前端框架简介</h1><h2 id="解决什么问题"><a href="#解决什么问题" class="headerlink" title="解决什么问题"></a>解决什么问题</h2><ul>
+<li>前端要做的工作：根据用户的操作将相应的数据展示到视图中。</li>
+<li>为保证状态与UI同步，需要将大量的精力放在操作DOM上。</li>
+<li>频繁的操作DOM，这样的结果导致了代码臃肿，不易维护，容易出错，且浏览器渲染开销大。</li>
+<li>为了解决UI与状态同步的问题，出现了前端框架。</li>
+<li>前端框架帮助我们减少DOM的操作，同时提高了渲染页面的性能。</li>
+</ul>
+<h2 id="DOM操作"><a href="#DOM操作" class="headerlink" title="DOM操作"></a>DOM操作</h2><ul>
+<li>访问操作dom比较耗时</li>
+<li>修改dom引起重排重绘，产生浪费</li>
+</ul>
 <p>PS：</p>
 <ul>
-<li>println 会输出后换行</li>
-<li>printf 类似于c语言printf</li>
+<li>重排：如果页面元素位置发生变化，就要从布局阶段重新开始渲染，也就是页面重排。页面重排一定会进行后续重绘。</li>
+<li>重绘：如果页面元素只是显示样式改变而布局不变，那么页面内容将会从绘制阶段开始。</li>
 </ul>
-<h1 id="时间类"><a href="#时间类" class="headerlink" title="时间类"></a>时间类</h1><h2 id="calendar"><a href="#calendar" class="headerlink" title="calendar"></a>calendar</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br></pre></td><td class="code"><pre><span class="line">package com.hp.date;</span><br><span class="line"></span><br><span class="line">import java.text.SimpleDateFormat;</span><br><span class="line">import java.util.Calendar;</span><br><span class="line">import java.util.Date;</span><br><span class="line"></span><br><span class="line">public class CalendarDemo&#123;</span><br><span class="line">    public static void main(String[] args) throws Exception &#123;</span><br><span class="line">        //获取获取系统的当前日历对象</span><br><span class="line">        Calendar instance = Calendar.getInstance();</span><br><span class="line"></span><br><span class="line">        //1、获取今天是周几</span><br><span class="line">        int weekDay = instance.get(Calendar.DAY_OF_WEEK);</span><br><span class="line">        System.out.println(&quot;今天是周:&quot; + (weekDay - 1));</span><br><span class="line"></span><br><span class="line">        //2、获取系统当前年</span><br><span class="line">        int year = instance.get(Calendar.YEAR);</span><br><span class="line">        System.out.println(&quot;今年是:&quot; + year + &quot;年&quot;);</span><br><span class="line"></span><br><span class="line">        //3、获取系统当前月</span><br><span class="line">        int month = instance.get(Calendar.MONTH);</span><br><span class="line">        System.out.println(&quot;本月是:&quot; + (month + 1) + &quot;月&quot;);</span><br><span class="line"></span><br><span class="line">        //4、获取系统当前日</span><br><span class="line">        int day = instance.get(Calendar.DATE);</span><br><span class="line">        System.out.println(&quot;今天是&quot; + day + &quot;号&quot;);</span><br><span class="line"></span><br><span class="line">        //5、获取上午跟下午</span><br><span class="line">        int am_pm = instance.get(Calendar.AM_PM);</span><br><span class="line">        if (am_pm == 0)</span><br><span class="line">            System.out.println(&quot;是上午&quot;);</span><br><span class="line">        else</span><br><span class="line">            System.out.println(&quot;是下午&quot;);</span><br><span class="line"></span><br><span class="line">        //6、获取当前的系统时间[date--&gt;String]的过程</span><br><span class="line">        Date time = instance.getTime();//获取的是当前系统的时间</span><br><span class="line">        SimpleDateFormat format = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss SSS&quot;);</span><br><span class="line">        String showTime = format.format(time);</span><br><span class="line">        System.out.println(&quot;当前系统时间为：&quot; + showTime);</span><br><span class="line"></span><br><span class="line">        //7、自定义日历的时间</span><br><span class="line">        String strTime = &quot;2021-07-07&quot;;</span><br><span class="line">        Date date = new SimpleDateFormat(&quot;yyyy-MM-dd&quot;).parse(strTime);</span><br><span class="line">        instance.setTime(date);//将时间对象data设置为新的日历</span><br><span class="line">        System.out.println(&quot;修改后的系统时间为：&quot; + new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss SSS&quot;).format(instance.getTime()));</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">  		System.out.println(&quot;------------Calendar和Date转换------------&quot;);</span><br><span class="line">        Date now = calendar.getTime();</span><br><span class="line">        calendar.setTime(now);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        System.out.println(&quot;------------Calendar日期计算以及判断------------&quot;);</span><br><span class="line">        calendar = new GregorianCalendar();</span><br><span class="line">        Calendar calendar2 = new GregorianCalendar();</span><br><span class="line">        calendar2.set(Calendar.YEAR, 2800);</span><br><span class="line">        //是否在某个时间(calendar2)之后</span><br><span class="line">        System.out.println(calendar.after(calendar2));</span><br><span class="line">        //是否在某个时间(calendar2)之前</span><br><span class="line">        System.out.println(calendar.before(calendar2));</span><br><span class="line">        //增加多少年年，月日以及时分秒同理</span><br><span class="line">        calendar.add(Calendar.YEAR, -10);</span><br><span class="line"></span><br><span class="line">    &#125; </span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="渲染引擎的工作流程"><a href="#渲染引擎的工作流程" class="headerlink" title="渲染引擎的工作流程"></a>渲染引擎的工作流程</h2><p>解析html→构建DOM树→构建渲染树→渲染树布局→绘制渲染树</p>
+<p>PS：</p>
+<p>​    渲染树：根据 可视化节点 和 css 样式表 结合诞生出来的树</p>
+<p><img src="https://s1.ax1x.com/2022/11/05/xOcyH1.png" alt="img"></p>
+<h1 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><ul>
+<li>用于构建用户界面的渐进式JS框架</li>
+<li>Vue可以自底向上逐层应用</li>
+</ul>
+<h2 id="核心概念"><a href="#核心概念" class="headerlink" title="核心概念"></a>核心概念</h2><h3 id="虚拟DOM和DIFF算法"><a href="#虚拟DOM和DIFF算法" class="headerlink" title="虚拟DOM和DIFF算法"></a>虚拟DOM和DIFF算法</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">一个JS对象，用来描述真实dom，但不是真实dom</span><br></pre></td></tr></table></figure>
 
-<h1 id="数组方法"><a href="#数组方法" class="headerlink" title="数组方法"></a>数组方法</h1><h2 id="复制"><a href="#复制" class="headerlink" title="复制"></a>复制</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">System.arraycopy(原数组，开始位置，目标数组，开始位置，复制长度)</span><br></pre></td></tr></table></figure>
+<p><img src="https://s1.ax1x.com/2022/11/05/xO6okV.png" alt="img"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">DIFF算法：比较新旧虚拟DOM</span><br><span class="line">	规则:</span><br><span class="line">	1.同层级比较</span><br><span class="line">	2.先深度遍历</span><br></pre></td></tr></table></figure>
 
-<h1 id="字符串方法"><a href="#字符串方法" class="headerlink" title="字符串方法"></a>字符串方法</h1>
+<p><img src="https://s1.ax1x.com/2022/11/05/xO63o6.png"></p>
+<h3 id="MVVM模型"><a href="#MVVM模型" class="headerlink" title="MVVM模型"></a>MVVM模型</h3><p>M：模型（model）：对应data数据</p>
+<p>V：视图（view）：模板</p>
+<p>VM：视图模型：Vue实例对象</p>
+<p>data bindings：数据绑定给view</p>
+<p>dom listeners：监听 回馈view的数据改变</p>
+<p><img src="https://s1.ax1x.com/2022/11/05/xOc9fO.png" alt="img"></p>
+<h4 id="MVC模型"><a href="#MVC模型" class="headerlink" title="MVC模型"></a>MVC模型</h4><p><img src="https://s1.ax1x.com/2022/11/05/xO6jmR.png" alt="img"></p>
+<h3 id="组件化"><a href="#组件化" class="headerlink" title="组件化"></a>组件化</h3><p>​        Vue将组成一个页面的HTML，CSS和JS合并到一个组件中，可以被其他组件或页面引入而重复利用。</p>
+<p>​    组件化很好的将一个庞大复杂的前端工程拆分为一个个组件，重复利用的性质也大大提高了开发的效率。（一个.vue就是一个组件）</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">eg：//实现某一功能的所有资源组合打包</span><br><span class="line">// 某一页面 标题头部</span><br><span class="line">html+css+js+图片+视频+音频...</span><br></pre></td></tr></table></figure>
+
+<h3 id="响应式"><a href="#响应式" class="headerlink" title="响应式"></a>响应式</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">数据变化，视图自动更新</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://s1.ax1x.com/2022/11/06/xXB6IO.png" alt="响应式"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">过程:</span><br><span class="line">1.监听器Observer监听数据data，属性</span><br><span class="line">2.如果改变通知订阅者watcher是否更新</span><br><span class="line">3.订阅器dep收集watcher，进行统一管理</span><br><span class="line">4.解析器Compile对el模板进行解析，并初始化一个watcher，并替换模板数据或者绑定相应的函数，当订阅者Watcher接收到相应属性的变化，就会执行对应的更新函数，从而更新视图。</span><br></pre></td></tr></table></figure>
+
+<h3 id="声明式编码"><a href="#声明式编码" class="headerlink" title="声明式编码"></a>声明式编码</h3><p>命令式：侧重于实现</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">var numbers = [1,2,3,4,5]</span><br><span class="line">var doubled = []</span><br><span class="line">for(var i = 0; i &lt; numbers.length; i++) &#123;</span><br><span class="line">  var newNumber = numbers[i] * 2</span><br><span class="line">  doubled.push (newNumber)</span><br><span class="line">&#125;</span><br><span class="line">console.log (doubled) //=&gt; [2,4,6,8,10]</span><br></pre></td></tr></table></figure>
+
+<p>声明式：侧重于表现</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">var numbers = [1,2,3,4,5]</span><br><span class="line">var doubled = numbers.map (function (n) &#123;</span><br><span class="line">  return n * 2</span><br><span class="line">&#125;)</span><br><span class="line">console.log (doubled) //=&gt; [2,4,6,8,10]</span><br></pre></td></tr></table></figure>
+
+<h3 id="生命周期"><a href="#生命周期" class="headerlink" title="生命周期"></a>生命周期</h3><p><img src="https://img-blog.csdnimg.cn/20200811222953807.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTQyMTk4Ng==,size_16,color_FFFFFF,t_70"></p>
+<hr>
+<p><img src="https://s1.ax1x.com/2022/11/05/xOcM9S.png" alt="img"></p>
+<h1 id="React"><a href="#React" class="headerlink" title="React"></a>React</h1><h2 id="简介-1"><a href="#简介-1" class="headerlink" title="简介"></a>简介</h2><ol>
+<li>一个JS UI库</li>
+<li>react一般作为MVC中的V（view）层，不依赖于其他库，可以与其他库的集成使用（Jquery，Backone）</li>
+<li>在浏览器端运行，或通过nodejs在服务端渲染</li>
+<li>react语法为jsx，即在react中直接混合使用js和html，因此jsx运行需要将代码编译为普通js（可用多种思路解决 服务端通过webpack）</li>
+</ol>
+<h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><p><img src="https://s1.ax1x.com/2022/11/05/xOcBjJ.png" alt="img"></p>
+<ol>
+<li>声明式编程</li>
+<li>函数式编程</li>
+<li>组件方式开发</li>
+<li>特殊语法JSX</li>
+<li>虚拟DOM</li>
+</ol>
+<h2 id="函数式编程"><a href="#函数式编程" class="headerlink" title="函数式编程"></a>函数式编程</h2><p>函数类似于数据，也可保存，检索，传递</p>
+<p>​    核心概念：</p>
+<ul>
+<li><strong>不可变性(Immutability)</strong></li>
+<li><strong>纯函数(Pure Functions)</strong></li>
+<li><strong>数据转换(Data Transformations)</strong></li>
+<li><strong>高阶函数 (Higher-Order Functions)</strong></li>
+<li><strong>递归</strong></li>
+<li><strong>组合</strong></li>
+</ul>
+<h2 id="JSX"><a href="#JSX" class="headerlink" title="JSX"></a>JSX</h2><ol>
+<li><p>JSX 是一种 JS 扩展的表达式</p>
+</li>
+<li><p>JSX 是带有逻辑的标记语法，有别于 HTML 模版</p>
+</li>
+<li><p>并且支持样式、逻辑表达式和事件</p>
+</li>
+<li><p>类似于XML的JS拓展语法：JS+XML</p>
+</li>
+</ol>
+<h2 id="XML"><a href="#XML" class="headerlink" title="XML"></a>XML</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">早期用于存储与传输数据</span><br><span class="line">eg:</span><br><span class="line">&lt;student&gt;*******&lt;/student&gt;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://s1.ax1x.com/2022/11/05/xOcNNV.png" alt="img"></p>
+<h2 id="虚拟DOM和DIFF算法-1"><a href="#虚拟DOM和DIFF算法-1" class="headerlink" title="虚拟DOM和DIFF算法"></a>虚拟DOM和DIFF算法</h2><p><img src="https://s1.ax1x.com/2022/11/05/xO6okV.png" alt="img"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">DIFF算法：比较新旧虚拟DOM</span><br><span class="line">	规则:</span><br><span class="line">	1.同层级比较</span><br><span class="line">	2.先深度遍历</span><br></pre></td></tr></table></figure>
+
+
                 
             </div>
             <hr/>
@@ -452,7 +537,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://gitee.com/shengeyan/shengeyan.git/shengeyan/2023/03161.html">https://gitee.com/shengeyan/shengeyan.git/shengeyan/2023/03161.html</a>
+                    <a href="https://gitee.com/shengeyan/shengeyan.git/shengeyan/2023/031635073.html">https://gitee.com/shengeyan/shengeyan.git/shengeyan/2023/031635073.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -490,8 +575,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/shengeyan/tags/%E8%AF%AD%E8%A8%80/">
-                                    <span class="chip bg-color">语言</span>
+                                <a href="/shengeyan/tags/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/">
+                                    <span class="chip bg-color">前端框架</span>
                                 </a>
                             
                         </div>
@@ -924,9 +1009,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/shengeyan/2023/031635073.html">
                     <div class="card-image">
@@ -944,9 +1030,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2023-03-16
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-03-16
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -955,6 +1041,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -973,13 +1060,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/shengeyan/2023/030252486.html">
+                <a href="/shengeyan/2023/03161.html">
                     <div class="card-image">
                         
                         
-                        <img src="/shengeyan/medias/featureimages/1.jpg" class="responsive-img" alt="JS稿">
+                        <img src="/shengeyan/medias/featureimages/2.jpg" class="responsive-img" alt="Java稿">
                         
-                        <span class="card-title">JS稿</span>
+                        <span class="card-title">Java稿</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -990,7 +1077,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-03-02
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-03-16
                             </span>
                         <span class="publish-author">
                             
@@ -1003,8 +1090,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/shengeyan/tags/%E5%89%8D%E7%AB%AF/">
-                        <span class="chip bg-color">前端</span>
+                    <a href="/shengeyan/tags/%E8%AF%AD%E8%A8%80/">
+                        <span class="chip bg-color">语言</span>
                     </a>
                     
                 </div>
