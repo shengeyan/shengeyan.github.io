@@ -6,7 +6,7 @@
   <link href="https://gitee.com/shengeyan/shengeyan.git/atom.xml" rel="self"/>
   
   <link href="https://gitee.com/shengeyan/shengeyan.git/"/>
-  <updated>2023-05-03T15:06:40.395Z</updated>
+  <updated>2023-05-03T15:22:00.049Z</updated>
   <id>https://gitee.com/shengeyan/shengeyan.git/</id>
   
   <author>
@@ -17,44 +17,49 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://gitee.com/shengeyan/shengeyan.git/2023/05032.html"/>
-    <id>https://gitee.com/shengeyan/shengeyan.git/2023/05032.html</id>
+    <title>二〇二三年 五一节</title>
+    <link href="https://gitee.com/shengeyan/shengeyan.git/2023/050329521.html"/>
+    <id>https://gitee.com/shengeyan/shengeyan.git/2023/050329521.html</id>
     <published>2023-05-03T15:00:19.500Z</published>
-    <updated>2023-05-03T15:06:40.395Z</updated>
+    <updated>2023-05-03T15:22:00.049Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+    <summary type="html">&lt;h2 id=&quot;二〇二三年-五一节&quot;&gt;&lt;a href=&quot;#二〇二三年-五一节&quot; class=&quot;headerlink&quot; title=&quot;二〇二三年 五一节&quot;&gt;&lt;/a&gt;二〇二三年 五一节&lt;/h2&gt;&lt;p&gt;​    特种兵出行贵州辗转重庆&lt;/p&gt;
+&lt;p&gt;​   </summary>
         
       
     
     
     
+    
+    <category term="life" scheme="https://gitee.com/shengeyan/shengeyan.git/tags/life/"/>
     
   </entry>
   
   <entry>
-    <title></title>
-    <link href="https://gitee.com/shengeyan/shengeyan.git/2023/04281.html"/>
-    <id>https://gitee.com/shengeyan/shengeyan.git/2023/04281.html</id>
+    <title>Websocket&amp;WebRTC</title>
+    <link href="https://gitee.com/shengeyan/shengeyan.git/2023/04283651.html"/>
+    <id>https://gitee.com/shengeyan/shengeyan.git/2023/04283651.html</id>
     <published>2023-04-28T14:40:03.390Z</published>
-    <updated>2023-05-03T15:07:47.658Z</updated>
+    <updated>2023-05-03T15:22:00.049Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+    <summary type="html">&lt;h1 id=&quot;Websocket&quot;&gt;&lt;a href=&quot;#Websocket&quot; class=&quot;headerlink&quot; title=&quot;Websocket&quot;&gt;&lt;/a&gt;Websocket&lt;/h1&gt;&lt;h2 id=&quot;应用场景&quot;&gt;&lt;a href=&quot;#应用场景&quot;</summary>
         
       
     
     
     
+    
+    <category term="前端" scheme="https://gitee.com/shengeyan/shengeyan.git/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -63,7 +68,7 @@
     <link href="https://gitee.com/shengeyan/shengeyan.git/2023/03162526.html"/>
     <id>https://gitee.com/shengeyan/shengeyan.git/2023/03162526.html</id>
     <published>2023-03-16T02:04:28.449Z</published>
-    <updated>2023-03-16T02:05:07.103Z</updated>
+    <updated>2023-05-03T15:18:24.772Z</updated>
     
     
       
@@ -82,11 +87,11 @@
   </entry>
   
   <entry>
-    <title></title>
-    <link href="https://gitee.com/shengeyan/shengeyan.git/2023/03160.html"/>
-    <id>https://gitee.com/shengeyan/shengeyan.git/2023/03160.html</id>
+    <title>Vue</title>
+    <link href="https://gitee.com/shengeyan/shengeyan.git/2023/03163.html"/>
+    <id>https://gitee.com/shengeyan/shengeyan.git/2023/03163.html</id>
     <published>2023-03-16T02:04:28.445Z</published>
-    <updated>2022-11-05T05:38:53.349Z</updated>
+    <updated>2023-05-03T15:22:44.597Z</updated>
     
     
       
@@ -99,6 +104,8 @@
     
     
     
+    
+    <category term="前端框架" scheme="https://gitee.com/shengeyan/shengeyan.git/tags/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/"/>
     
   </entry>
   
