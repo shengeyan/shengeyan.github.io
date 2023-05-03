@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="框架（一）, 沈歌宴">
+    <meta name="keywords" content="沈歌宴">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>框架（一） | 沈歌宴</title>
+    <title>沈歌宴</title>
     <link rel="icon" type="image/png" href="/shengeyan/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/shengeyan/libs/awesome/css/all.css">
@@ -258,12 +258,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/shengeyan/medias/featureimages/2.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/shengeyan/medias/featureimages/1.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">框架（一）</h1>
+                    <h1 class="description center-align post-title"></h1>
                 </div>
             </div>
         </div>
@@ -377,13 +377,9 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/shengeyan/tags/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/">
-                                <span class="chip bg-color">前端框架</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -416,101 +412,119 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="前端框架简介"><a href="#前端框架简介" class="headerlink" title="前端框架简介"></a>前端框架简介</h1><h2 id="解决什么问题"><a href="#解决什么问题" class="headerlink" title="解决什么问题"></a>解决什么问题</h2><ul>
-<li>前端要做的工作：根据用户的操作将相应的数据展示到视图中。</li>
-<li>为保证状态与UI同步，需要将大量的精力放在操作DOM上。</li>
-<li>频繁的操作DOM，这样的结果导致了代码臃肿，不易维护，容易出错，且浏览器渲染开销大。</li>
-<li>为了解决UI与状态同步的问题，出现了前端框架。</li>
-<li>前端框架帮助我们减少DOM的操作，同时提高了渲染页面的性能。</li>
-</ul>
-<h2 id="DOM操作"><a href="#DOM操作" class="headerlink" title="DOM操作"></a>DOM操作</h2><ul>
-<li>访问操作dom比较耗时</li>
-<li>修改dom引起重排重绘，产生浪费</li>
-</ul>
-<p>PS：</p>
-<ul>
-<li>重排：如果页面元素位置发生变化，就要从布局阶段重新开始渲染，也就是页面重排。页面重排一定会进行后续重绘。</li>
-<li>重绘：如果页面元素只是显示样式改变而布局不变，那么页面内容将会从绘制阶段开始。</li>
-</ul>
-<h2 id="渲染引擎的工作流程"><a href="#渲染引擎的工作流程" class="headerlink" title="渲染引擎的工作流程"></a>渲染引擎的工作流程</h2><p>解析html→构建DOM树→构建渲染树→渲染树布局→绘制渲染树</p>
-<p>PS：</p>
-<p>​    渲染树：根据 可视化节点 和 css 样式表 结合诞生出来的树</p>
-<p><img src="https://s1.ax1x.com/2022/11/05/xOcyH1.png" alt="img"></p>
-<h1 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><ul>
-<li>用于构建用户界面的渐进式JS框架</li>
-<li>Vue可以自底向上逐层应用</li>
-</ul>
-<h2 id="核心概念"><a href="#核心概念" class="headerlink" title="核心概念"></a>核心概念</h2><h3 id="虚拟DOM和DIFF算法"><a href="#虚拟DOM和DIFF算法" class="headerlink" title="虚拟DOM和DIFF算法"></a>虚拟DOM和DIFF算法</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">一个JS对象，用来描述真实dom，但不是真实dom</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://s1.ax1x.com/2022/11/05/xO6okV.png" alt="img"></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">DIFF算法：比较新旧虚拟DOM</span><br><span class="line">	规则:</span><br><span class="line">	1.同层级比较</span><br><span class="line">	2.先深度遍历</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://s1.ax1x.com/2022/11/05/xO63o6.png"></p>
-<h3 id="MVVM模型"><a href="#MVVM模型" class="headerlink" title="MVVM模型"></a>MVVM模型</h3><p>M：模型（model）：对应data数据</p>
+                <h1 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h1><h2 id="简介：Vue-是什么？"><a href="#简介：Vue-是什么？" class="headerlink" title="简介：Vue 是什么？"></a>简介：Vue 是什么？</h2><p>​    用于构建用户界面的渐进式JS框架</p>
+<p>​    Vue可以自底向上逐层应用</p>
+<h2 id="核心概念"><a href="#核心概念" class="headerlink" title="核心概念"></a>核心概念</h2><h3 id="组件化"><a href="#组件化" class="headerlink" title="组件化"></a>组件化</h3><p>​    Vue将组成一个页面的HTML，CSS和JS合并到一个组件中，可以被其他组件或页面引入而重复利用。</p>
+<p>​    组件化很好的将一个庞大复杂的前端工程拆分为一个个组件，重复利用的性质也大大提高了开发的效率。（一个.vue就是一个组件）</p>
+<h3 id="声明式编码"><a href="#声明式编码" class="headerlink" title="声明式编码"></a>声明式编码</h3><p>​    命令式：</p>
+<p>​    </p>
+<p>​    声明式：</p>
+<h2 id="虚拟DOM和DIFF算法"><a href="#虚拟DOM和DIFF算法" class="headerlink" title="虚拟DOM和DIFF算法"></a>虚拟DOM和DIFF算法</h2><h2 id="生命周期"><a href="#生命周期" class="headerlink" title="生命周期"></a>生命周期</h2><p><img src="https://img-blog.csdnimg.cn/20200811222953807.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTQyMTk4Ng==,size_16,color_FFFFFF,t_70"></p>
+<h2 id="MVVM模型"><a href="#MVVM模型" class="headerlink" title="MVVM模型"></a>MVVM模型</h2><p>M：模型（model）：对应data数据</p>
 <p>V：视图（view）：模板</p>
 <p>VM：视图模型：Vue实例对象</p>
 <p>data bindings：数据绑定给view</p>
 <p>dom listeners：监听 回馈view的数据改变</p>
-<p><img src="https://s1.ax1x.com/2022/11/05/xOc9fO.png" alt="img"></p>
-<h4 id="MVC模型"><a href="#MVC模型" class="headerlink" title="MVC模型"></a>MVC模型</h4><p><img src="https://s1.ax1x.com/2022/11/05/xO6jmR.png" alt="img"></p>
-<h3 id="组件化"><a href="#组件化" class="headerlink" title="组件化"></a>组件化</h3><p>​        Vue将组成一个页面的HTML，CSS和JS合并到一个组件中，可以被其他组件或页面引入而重复利用。</p>
-<p>​    组件化很好的将一个庞大复杂的前端工程拆分为一个个组件，重复利用的性质也大大提高了开发的效率。（一个.vue就是一个组件）</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">eg：//实现某一功能的所有资源组合打包</span><br><span class="line">// 某一页面 标题头部</span><br><span class="line">html+css+js+图片+视频+音频...</span><br></pre></td></tr></table></figure>
-
-<h3 id="响应式"><a href="#响应式" class="headerlink" title="响应式"></a>响应式</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">数据变化，视图自动更新</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://s1.ax1x.com/2022/11/06/xXB6IO.png" alt="响应式"></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">过程:</span><br><span class="line">1.监听器Observer监听数据data，属性</span><br><span class="line">2.如果改变通知订阅者watcher是否更新</span><br><span class="line">3.订阅器dep收集watcher，进行统一管理</span><br><span class="line">4.解析器Compile对el模板进行解析，并初始化一个watcher，并替换模板数据或者绑定相应的函数，当订阅者Watcher接收到相应属性的变化，就会执行对应的更新函数，从而更新视图。</span><br></pre></td></tr></table></figure>
-
-<h3 id="声明式编码"><a href="#声明式编码" class="headerlink" title="声明式编码"></a>声明式编码</h3><p>命令式：侧重于实现</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">var numbers = [1,2,3,4,5]</span><br><span class="line">var doubled = []</span><br><span class="line">for(var i = 0; i &lt; numbers.length; i++) &#123;</span><br><span class="line">  var newNumber = numbers[i] * 2</span><br><span class="line">  doubled.push (newNumber)</span><br><span class="line">&#125;</span><br><span class="line">console.log (doubled) //=&gt; [2,4,6,8,10]</span><br></pre></td></tr></table></figure>
-
-<p>声明式：侧重于表现</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">var numbers = [1,2,3,4,5]</span><br><span class="line">var doubled = numbers.map (function (n) &#123;</span><br><span class="line">  return n * 2</span><br><span class="line">&#125;)</span><br><span class="line">console.log (doubled) //=&gt; [2,4,6,8,10]</span><br></pre></td></tr></table></figure>
-
-<h3 id="生命周期"><a href="#生命周期" class="headerlink" title="生命周期"></a>生命周期</h3><p><img src="https://img-blog.csdnimg.cn/20200811222953807.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTQyMTk4Ng==,size_16,color_FFFFFF,t_70"></p>
-<hr>
-<p><img src="https://s1.ax1x.com/2022/11/05/xOcM9S.png" alt="img"></p>
-<h1 id="React"><a href="#React" class="headerlink" title="React"></a>React</h1><h2 id="简介-1"><a href="#简介-1" class="headerlink" title="简介"></a>简介</h2><ol>
-<li>一个JS UI库</li>
-<li>react一般作为MVC中的V（view）层，不依赖于其他库，可以与其他库的集成使用（Jquery，Backone）</li>
-<li>在浏览器端运行，或通过nodejs在服务端渲染</li>
-<li>react语法为jsx，即在react中直接混合使用js和html，因此jsx运行需要将代码编译为普通js（可用多种思路解决 服务端通过webpack）</li>
-</ol>
-<h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><p><img src="https://s1.ax1x.com/2022/11/05/xOcBjJ.png" alt="img"></p>
-<ol>
-<li>声明式编程</li>
-<li>函数式编程</li>
-<li>组件方式开发</li>
-<li>特殊语法JSX</li>
-<li>虚拟DOM</li>
-</ol>
-<h2 id="函数式编程"><a href="#函数式编程" class="headerlink" title="函数式编程"></a>函数式编程</h2><p>函数类似于数据，也可保存，检索，传递</p>
-<p>​    核心概念：</p>
-<ul>
-<li><strong>不可变性(Immutability)</strong></li>
-<li><strong>纯函数(Pure Functions)</strong></li>
-<li><strong>数据转换(Data Transformations)</strong></li>
-<li><strong>高阶函数 (Higher-Order Functions)</strong></li>
-<li><strong>递归</strong></li>
-<li><strong>组合</strong></li>
+<p><img src="https://uploader.shimo.im/f/dXUVNpuLMlWCcr8T.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE2NjY3NTM4ODQsImZpbGVHVUlEIjoiMWQzYVZhTmJsblVEanZxZyIsImlhdCI6MTY2Njc1MzU4NCwiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwidXNlcklkIjo3NjA4NjM0MH0.886jRFloFqfudZGowZ_PipeIPE2cRL-rtlOr5MO4Mi8" alt="img"></p>
+<h2 id="优缺点"><a href="#优缺点" class="headerlink" title="优缺点"></a>优缺点</h2><h2 id="表达式与语句"><a href="#表达式与语句" class="headerlink" title="表达式与语句"></a>表达式与语句</h2><h2 id="PS"><a href="#PS" class="headerlink" title="PS"></a>PS</h2><ul>
+<li>vue与盒子一一对应</li>
 </ul>
-<h2 id="JSX"><a href="#JSX" class="headerlink" title="JSX"></a>JSX</h2><ol>
-<li><p>JSX 是一种 JS 扩展的表达式</p>
-</li>
-<li><p>JSX 是带有逻辑的标记语法，有别于 HTML 模版</p>
-</li>
-<li><p>并且支持样式、逻辑表达式和事件</p>
-</li>
-<li><p>类似于XML的JS拓展语法：JS+XML</p>
-</li>
-</ol>
-<h2 id="XML"><a href="#XML" class="headerlink" title="XML"></a>XML</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">早期用于存储与传输数据</span><br><span class="line">eg:</span><br><span class="line">&lt;student&gt;*******&lt;/student&gt;</span><br></pre></td></tr></table></figure>
+<h1 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h1><h2 id="结构"><a href="#结构" class="headerlink" title="结构"></a>结构</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">new Vue(&#123;</span><br><span class="line">	el:&#x27;&#x27;,//id</span><br><span class="line">	data:&#123;//数据</span><br><span class="line">	</span><br><span class="line">	&#125;,</span><br><span class="line">	computed：&#123;//计算属性</span><br><span class="line">		name：&#123;</span><br><span class="line">			getter</span><br><span class="line">			setter</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;，</span><br><span class="line">	methods:&#123;</span><br><span class="line">		fname()&#123;</span><br><span class="line">		</span><br><span class="line">		&#125;//函数名，不需要function</span><br><span class="line">	&#125;,</span><br><span class="line">	watch:&#123;//监视器</span><br><span class="line">	</span><br><span class="line">	&#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://s1.ax1x.com/2022/11/05/xOcNNV.png" alt="img"></p>
-<h2 id="虚拟DOM和DIFF算法-1"><a href="#虚拟DOM和DIFF算法-1" class="headerlink" title="虚拟DOM和DIFF算法"></a>虚拟DOM和DIFF算法</h2><p><img src="https://s1.ax1x.com/2022/11/05/xO6okV.png" alt="img"></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">DIFF算法：比较新旧虚拟DOM</span><br><span class="line">	规则:</span><br><span class="line">	1.同层级比较</span><br><span class="line">	2.先深度遍历</span><br></pre></td></tr></table></figure>
+<h2 id="计算属性简写"><a href="#计算属性简写" class="headerlink" title="计算属性简写"></a>计算属性简写</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">computed:&#123;</span><br><span class="line">	name:&#123;</span><br><span class="line">		getter</span><br><span class="line">		setter</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">//当只需要getter时可简写为</span><br><span class="line">computed:&#123;</span><br><span class="line">	fname()&#123;</span><br><span class="line">		</span><br><span class="line">	&#125;//函数形式</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
+
+
+<h2 id="模板语法"><a href="#模板语法" class="headerlink" title="模板语法"></a>模板语法</h2><h3 id="插值语法"><a href="#插值语法" class="headerlink" title="插值语法"></a>插值语法</h3><p>​    功能：用于解析标签体内容</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;h1&gt;标签体&#123;&#123;&#125;&#125;&lt;h1/&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="指令语法"><a href="#指令语法" class="headerlink" title="指令语法"></a>指令语法</h3><p>​    功能：用于解析标签</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;....&quot;&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="指令"><a href="#指令" class="headerlink" title="指令"></a>指令</h1><h2 id="v-bind"><a href="#v-bind" class="headerlink" title="v-bind"></a>v-bind</h2><p>​    v-bind ==&gt; ：</p>
+<h2 id="v-model"><a href="#v-model" class="headerlink" title="v-model"></a>v-model</h2><p>​    可以用于表单元素绑定，收集value</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;input type= value=&gt; //可用</span><br><span class="line">&lt;h1&gt;***&lt;h1/&gt; //不可用</span><br></pre></td></tr></table></figure>
+
+<p>​    简写：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;input type=&quot;text&quot; v-model:value=&quot;name&quot;&gt; </span><br><span class="line">写为：</span><br><span class="line">&lt;input type=&quot;text&quot; v-model=&quot;name&quot;&gt;//省略：与value </span><br></pre></td></tr></table></figure>
+
+<h2 id="v-on"><a href="#v-on" class="headerlink" title="v-on"></a>v-on</h2><p>eg：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;button v-on:click=&quot;函数名&quot;&gt;****&lt;/button&gt;</span><br></pre></td></tr></table></figure>
+
+<p>简写：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;button @click=&quot;函数名&quot;&gt;****&lt;/button&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="v-show"><a href="#v-show" class="headerlink" title="v-show"></a>v-show</h2><h2 id="vue-mount-‘id’-（el两种写法）"><a href="#vue-mount-‘id’-（el两种写法）" class="headerlink" title="vue.$mount(‘id’)  （el两种写法）"></a>vue.$mount(‘id’)  （el两种写法）</h2><p>​    类似于Vue中el的属性</p>
+<p>eg：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">const v=new Vue(...)</span><br><span class="line">v.$mount(&#x27;id&#x27;)</span><br></pre></td></tr></table></figure>
+
+<p>优势：灵活</p>
+<h2 id="（date-两种写法）"><a href="#（date-两种写法）" class="headerlink" title="（date 两种写法）"></a>（date 两种写法）</h2><ul>
+<li>对象式</li>
+<li>函数式</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">data:function()&#123;....return ....&#125;</span><br></pre></td></tr></table></figure>
+
+<p>PS：</p>
+<p>​    由vue管理的函数不能使用箭头函数</p>
+<h1 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h1><h2 id="滚轮"><a href="#滚轮" class="headerlink" title="滚轮"></a>滚轮</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;ul @wheel=&quot;fname&quot;&gt;//鼠标滚轮事件</span><br><span class="line">&lt;ul @scroll=&quot;fname&quot;&gt;//滚动条事件</span><br><span class="line">	&lt;li&gt;&lt;/li&gt;</span><br><span class="line">&lt;/ul&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="属性添加，配置可枚举"><a href="#属性添加，配置可枚举" class="headerlink" title="属性添加，配置可枚举"></a>属性添加，配置可枚举</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">Object.defineProperty(object,&#x27;key&#x27;,&#123;配置&#125;)</span><br><span class="line">&#123;//配置内容</span><br><span class="line"></span><br><span class="line">value：</span><br><span class="line">enumerable：true/false   是否可枚举</span><br><span class="line">writable：true/false	    是否可写</span><br><span class="line">configurable：true/false 是否可删除</span><br><span class="line"></span><br><span class="line">get ()&#123;</span><br><span class="line">	return ...</span><br><span class="line">&#125;//获取</span><br><span class="line"></span><br><span class="line">set (value)&#123;</span><br><span class="line">	return value</span><br><span class="line">&#125;//改</span><br><span class="line"></span><br><span class="line">&#125;//JS属性配置中有事例</span><br></pre></td></tr></table></figure>
+
+<h2 id="methods中函数"><a href="#methods中函数" class="headerlink" title="methods中函数"></a>methods中函数</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">//给methods中函数传送参数且event不消失</span><br><span class="line">	&lt;button @click=&quot;fname($event,参数)&quot;&gt;&lt;/button&gt;</span><br><span class="line">//传送时，event前需要添加 $</span><br><span class="line">    </span><br><span class="line">new Vue&#123;&#125;</span><br><span class="line">	methods:&#123;</span><br><span class="line">		fname(event,参数)&#123;</span><br><span class="line">		</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="watch中的函数"><a href="#watch中的函数" class="headerlink" title="watch中的函数"></a>watch中的函数</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">name:&#123;</span><br><span class="line">	handler(newvalue,oldvalue)&#123;</span><br><span class="line"></span><br><span class="line">	&#125;,</span><br><span class="line">	immediate:false,//初始调用一下</span><br><span class="line">&#125;</span><br><span class="line">//另一写法</span><br><span class="line">vue.$watch(&#x27;name&#x27;,&#123;方法&#125;)</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h1><h2 id="事件修饰符"><a href="#事件修饰符" class="headerlink" title="事件修饰符"></a>事件修饰符</h2><p>​    写在动作后面，可以连写</p>
+<h3 id="prevent：阻止默认事件"><a href="#prevent：阻止默认事件" class="headerlink" title="prevent：阻止默认事件"></a>prevent：阻止默认事件</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;http://www.shengeyan.gitee.io&quot; @click.prevent=&quot;hello&quot;&gt;点我&lt;/a&gt;</span><br><span class="line">//阻止a标签的网址跳跃</span><br></pre></td></tr></table></figure>
+
+<h3 id="stop：阻止事件冒泡"><a href="#stop：阻止事件冒泡" class="headerlink" title="stop：阻止事件冒泡"></a>stop：阻止事件冒泡</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;div @click.stop=&quot;fname&quot;&gt;</span><br><span class="line">	&lt;button @click.stop=&quot;fname&quot;&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">//阻止标签 两次弹窗</span><br></pre></td></tr></table></figure>
+
+<h3 id="once：事件只触发一次"><a href="#once：事件只触发一次" class="headerlink" title="once：事件只触发一次"></a>once：事件只触发一次</h3><h3 id="capture：使用事件的捕获模式"><a href="#capture：使用事件的捕获模式" class="headerlink" title="capture：使用事件的捕获模式"></a>capture：使用事件的捕获模式</h3><p>捕获：从外到内</p>
+<p>冒泡：从内到外</p>
+<h3 id="self：只有event-target是当前操作元素才触发事件"><a href="#self：只有event-target是当前操作元素才触发事件" class="headerlink" title="self：只有event.target是当前操作元素才触发事件"></a>self：只有event.target是当前操作元素才触发事件</h3><h3 id="passive：事件的默认行为立即执行，无需等待事件回调执行完毕"><a href="#passive：事件的默认行为立即执行，无需等待事件回调执行完毕" class="headerlink" title="passive：事件的默认行为立即执行，无需等待事件回调执行完毕"></a>passive：事件的默认行为立即执行，无需等待事件回调执行完毕</h3><h2 id="键盘事件"><a href="#键盘事件" class="headerlink" title="键盘事件"></a>键盘事件</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//键盘事件</span><br><span class="line">	@keyup=&quot;fname&quot;</span><br><span class="line">//回车</span><br><span class="line">	@keyup.enter=&quot;fname&quot;</span><br></pre></td></tr></table></figure>
+
+<h3 id="别名："><a href="#别名：" class="headerlink" title="别名："></a>别名：</h3><p>​    回车：enter</p>
+<p>​    删除：delete</p>
+<p>​    退出：esc</p>
+<p>​    空格：space</p>
+<p>​    换行：tab</p>
+<p>​    上下左右： up down left right</p>
+<h3 id="绑定"><a href="#绑定" class="headerlink" title="绑定"></a>绑定</h3><p>​    用key值绑定</p>
+<p>​    多单词的均小写并用-连接</p>
+<h3 id="特殊-系统修饰键"><a href="#特殊-系统修饰键" class="headerlink" title="特殊 系统修饰键"></a>特殊 系统修饰键</h3><p>​    换行：tab  keydown.tab</p>
+<p>​    alt、ctrl、shift、mata、tab 均要配合keydown正常使用</p>
+<h3 id="定义别名"><a href="#定义别名" class="headerlink" title="定义别名"></a>定义别名</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vue.config.keyCodes.huiche=13  //定义huiche绑定为回车键</span><br></pre></td></tr></table></figure>
+
+<h3 id="多键绑定"><a href="#多键绑定" class="headerlink" title="多键绑定"></a>多键绑定</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@keyuo.ctrl.y=&quot;fname&quot;	//将Ctrl与y 进行绑定</span><br></pre></td></tr></table></figure>
+
+<h1 id="监视"><a href="#监视" class="headerlink" title="监视"></a>监视</h1><h2 id="监视某一个属性"><a href="#监视某一个属性" class="headerlink" title="监视某一个属性"></a>监视某一个属性</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">watch:&#123;</span><br><span class="line">	&#x27;name1.name2&#x27;:&#123;</span><br><span class="line">		handler()&#123;&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="deep"><a href="#deep" class="headerlink" title="deep"></a>deep</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">watch:&#123;</span><br><span class="line">	name:&#123;</span><br><span class="line">		deep:true,//打开深度监视</span><br><span class="line">	&#125;</span><br><span class="line">&#125;//监视所有属性的改变</span><br></pre></td></tr></table></figure>
+
+<h2 id="监视简写"><a href="#监视简写" class="headerlink" title="监视简写"></a>监视简写</h2><p>前提：watch只用handler时，不用其他属性</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">watch:&#123;</span><br><span class="line">	fname()&#123;</span><br><span class="line">		function//函数</span><br><span class="line">	&#125;</span><br><span class="line">&#125;//类似于computed的简写  将name和function结合</span><br></pre></td></tr></table></figure>
+
+<h1 id="class与style绑定"><a href="#class与style绑定" class="headerlink" title="class与style绑定"></a>class与style绑定</h1><h2 id="class绑定"><a href="#class绑定" class="headerlink" title="class绑定"></a>class绑定</h2><p>不确定class名时：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">class=&quot;name&quot;//固定绑定</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">：class=&quot;name&quot;//动态绑定</span><br><span class="line">//两者结合</span><br><span class="line">class=&quot;name&quot; :class=&quot;name&quot;//等效于 class=&quot;name name2&quot;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>多个样式绑定，用class绑定arr数组</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">class=&quot;name&quot; :class=&quot;arr&quot;</span><br></pre></td></tr></table></figure>
+
+<p>样式确定，名字确定，动态决定用不用，class绑定obj对象</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">class=&quot;name&quot; :class=&quot;obj&quot;//obj为对象</span><br><span class="line">/*</span><br><span class="line">	obj:&#123;</span><br><span class="line">		class1:false,</span><br><span class="line">		class2:true,</span><br><span class="line">		...</span><br><span class="line">	&#125;</span><br><span class="line">*/</span><br></pre></td></tr></table></figure>
+
+<h2 id="style绑定"><a href="#style绑定" class="headerlink" title="style绑定"></a>style绑定</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=&#x27;name&#x27; :style=&quot;&#123;fontSize:num px&#125;&quot;&gt;&lt;/div&gt;</span><br><span class="line">//num 为定义的可写改的值</span><br><span class="line">fontSize为font-size 将css写成键值对的形式对象</span><br><span class="line">ps：</span><br><span class="line">1.单个名字的单独写即可 如：class</span><br><span class="line">2.多个名字的去掉短横线，小驼峰写 如：font-size写为fontSize </span><br></pre></td></tr></table></figure>
+
+<p>style绑定也可以绑定arr，类似于class，数组元素为样式对象</p>
 
                 
             </div>
@@ -537,7 +551,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://gitee.com/shengeyan/shengeyan.git/shengeyan/2023/031635073.html">https://gitee.com/shengeyan/shengeyan.git/shengeyan/2023/031635073.html</a>
+                    <a href="https://gitee.com/shengeyan/shengeyan.git/shengeyan/2023/03160.html">https://gitee.com/shengeyan/shengeyan.git/shengeyan/2023/03160.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -574,11 +588,7 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/shengeyan/tags/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/">
-                                    <span class="chip bg-color">前端框架</span>
-                                </a>
-                            
+                            <span class="chip bg-color">无标签</span>
                         </div>
                     
                 </div>
@@ -1013,13 +1023,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/shengeyan/2023/03160.html">
+                <a href="/shengeyan/2023/03162526.html">
                     <div class="card-image">
                         
                         
-                        <img src="/shengeyan/medias/featureimages/1.jpg" class="responsive-img" alt="">
+                        <img src="/shengeyan/medias/featureimages/4.jpg" class="responsive-img" alt="React">
                         
-                        <span class="card-title"></span>
+                        <span class="card-title">React</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1041,6 +1051,14 @@
                     </div>
                 </div>
                 
+                <div class="card-action article-tags">
+                    
+                    <a href="/shengeyan/tags/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/">
+                        <span class="chip bg-color">前端框架</span>
+                    </a>
+                    
+                </div>
+                
             </div>
         </div>
         
@@ -1050,13 +1068,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/shengeyan/2023/03161.html">
+                <a href="/shengeyan/2023/031635073.html">
                     <div class="card-image">
                         
                         
-                        <img src="/shengeyan/medias/featureimages/2.jpg" class="responsive-img" alt="Java稿">
+                        <img src="/shengeyan/medias/featureimages/2.jpg" class="responsive-img" alt="框架（一）">
                         
-                        <span class="card-title">Java稿</span>
+                        <span class="card-title">框架（一）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1080,8 +1098,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/shengeyan/tags/%E8%AF%AD%E8%A8%80/">
-                        <span class="chip bg-color">语言</span>
+                    <a href="/shengeyan/tags/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/">
+                        <span class="chip bg-color">前端框架</span>
                     </a>
                     
                 </div>
