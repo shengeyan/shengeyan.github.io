@@ -6,7 +6,7 @@
   <link href="https://gitee.com/shengeyan/shengeyan.git/atom.xml" rel="self"/>
   
   <link href="https://gitee.com/shengeyan/shengeyan.git/"/>
-  <updated>2023-05-03T15:38:02.930Z</updated>
+  <updated>2023-10-06T08:35:05.315Z</updated>
   <id>https://gitee.com/shengeyan/shengeyan.git/</id>
   
   <author>
@@ -15,6 +15,99 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>WebTransport</title>
+    <link href="https://gitee.com/shengeyan/shengeyan.git/2023/100621827.html"/>
+    <id>https://gitee.com/shengeyan/shengeyan.git/2023/100621827.html</id>
+    <published>2023-10-06T08:32:22.885Z</published>
+    <updated>2023-10-06T08:35:05.315Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="前端" scheme="https://gitee.com/shengeyan/shengeyan.git/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vercel Ai SDK</title>
+    <link href="https://gitee.com/shengeyan/shengeyan.git/2023/100649532.html"/>
+    <id>https://gitee.com/shengeyan/shengeyan.git/2023/100649532.html</id>
+    <published>2023-10-06T08:32:10.741Z</published>
+    <updated>2023-10-06T08:36:44.119Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;&lt;p&gt;Vercel AI SDK 是一个开源库，旨在帮助开发者在 JavaScript 和 TypeScript</summary>
+        
+      
+    
+    
+    
+    
+    <category term="前端" scheme="https://gitee.com/shengeyan/shengeyan.git/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>RSC理念</title>
+    <link href="https://gitee.com/shengeyan/shengeyan.git/2023/100631884.html"/>
+    <id>https://gitee.com/shengeyan/shengeyan.git/2023/100631884.html</id>
+    <published>2023-10-06T08:31:56.348Z</published>
+    <updated>2023-10-06T08:36:12.471Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;React组件的可能的状态：前端交互（RCC，React Client</summary>
+        
+      
+    
+    
+    
+    
+    <category term="前端" scheme="https://gitee.com/shengeyan/shengeyan.git/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Bun</title>
+    <link href="https://gitee.com/shengeyan/shengeyan.git/2023/100626631.html"/>
+    <id>https://gitee.com/shengeyan/shengeyan.git/2023/100626631.html</id>
+    <published>2023-10-06T08:31:32.845Z</published>
+    <updated>2023-10-06T08:35:38.984Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="前端" scheme="https://gitee.com/shengeyan/shengeyan.git/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>二〇二三年 五一节</title>
