@@ -244,7 +244,8 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #63b8ff 0%, #4f94cd 100%);
+    /* background-image: linear-gradient(to right, #63b8ff 0%, #4f94cd 100%); */
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .text-color {
