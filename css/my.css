@@ -1,1 +1,10 @@
 /* Here is your custom css styles. */
+/* Header overlay */
+.navbar-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#headNav {
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.5);
+}
