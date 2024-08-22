@@ -6,7 +6,7 @@
   <link href="https://shengeyan.github.io/atom.xml" rel="self"/>
   
   <link href="https://shengeyan.github.io/"/>
-  <updated>2024-08-15T08:42:21.597Z</updated>
+  <updated>2024-08-22T07:57:16.191Z</updated>
   <id>https://shengeyan.github.io/</id>
   
   <author>
@@ -17,27 +17,50 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>View Transition API</title>
+    <link href="https://shengeyan.github.io/2024/082255867.html"/>
+    <id>https://shengeyan.github.io/2024/082255867.html</id>
+    <published>2024-08-22T06:56:43.150Z</published>
+    <updated>2024-08-22T07:57:16.191Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;View-Transition-API&quot;&gt;&lt;a href=&quot;#View-Transition-API&quot; class=&quot;headerlink&quot; title=&quot;View Transition API&quot;&gt;&lt;/a&gt;View Transition API&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    
+    <category term="动画效果" scheme="https://shengeyan.github.io/tags/%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C/"/>
+    
+  </entry>
+  
+  <entry>
     <title>前端小记（一）</title>
     <link href="https://shengeyan.github.io/2024/081535179.html"/>
     <id>https://shengeyan.github.io/2024/081535179.html</id>
     <published>2024-08-15T07:06:43.054Z</published>
-    <updated>2024-08-15T08:42:21.597Z</updated>
+    <updated>2024-08-19T02:57:31.169Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;前端小记（一）&quot;&gt;&lt;a href=&quot;#前端小记（一）&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;前端小记（一）&quot;&gt;&lt;a href=&quot;#前端小记（一）&quot; class=&quot;headerlink&quot; title=&quot;前端小记（一）&quot;&gt;&lt;/a&gt;前端小记（一）&lt;/h1&gt;&lt;h2 id=&quot;对-React-Fiber-的理解&quot;&gt;&lt;a</summary>
         
       
     
     
     
     
-    <category term="Typora" scheme="https://shengeyan.github.io/tags/Typora/"/>
+    <category term="Fontend" scheme="https://shengeyan.github.io/tags/Fontend/"/>
     
-    <category term="Markdown" scheme="https://shengeyan.github.io/tags/Markdown/"/>
+    <category term="Note" scheme="https://shengeyan.github.io/tags/Note/"/>
     
   </entry>
   
