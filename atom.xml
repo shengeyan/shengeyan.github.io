@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>沈歌宴</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://shengeyan.github.io/</id>
+  <link href="https://shengeyan.github.io/" rel="alternate"/>
+  <link href="https://shengeyan.github.io/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, 沈歌宴</rights>
+  <title>沈歌宴</title>
+  <updated>2026-11-14T10:15:55.188Z</updated>
+  <entry>
+    <author>
+      <name>沈歌宴</name>
+    </author>
+    <category term="AI 工具" scheme="https://shengeyan.github.io/categories/AI-%E5%B7%A5%E5%85%B7/"/>
+    <category term="问题排查" scheme="https://shengeyan.github.io/tags/%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/"/>
+    <category term="Cursor" scheme="https://shengeyan.github.io/tags/Cursor/"/>
+    <category term="CLI" scheme="https://shengeyan.github.io/tags/CLI/"/>
+    <category term="终端" scheme="https://shengeyan.github.io/tags/%E7%BB%88%E7%AB%AF/"/>
+    <id>https://shengeyan.github.io/2026/081212068.html</id>
+    <link href="https://shengeyan.github.io/2026/081212068.html"/>
+    <published>2026-08-12T10:50:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="修复-reasonix-在-Cursor-集成终端中的闪烁问题"><a href="#修复-reasonix-在-Cursor-集成终端中的闪烁问题" class="headerlink" title="修复 reasonix 在 Cursor]]>
+    </summary>
+    <title>修复 reasonix 在 Cursor 集成终端中的闪烁问题</title>
+    <updated>2026-11-14T10:15:55.188Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>沈歌宴</name>
+    </author>
+    <category term="AI 工具" scheme="https://shengeyan.github.io/categories/AI-%E5%B7%A5%E5%85%B7/"/>
+    <category term="Claude Code" scheme="https://shengeyan.github.io/tags/Claude-Code/"/>
+    <category term="工具" scheme="https://shengeyan.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    <category term="问题排查" scheme="https://shengeyan.github.io/tags/%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/"/>
+    <id>https://shengeyan.github.io/2026/081261455.html</id>
+    <link href="https://shengeyan.github.io/2026/081261455.html"/>
+    <published>2026-08-12T10:40:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="解决-Claude-Code-无法连接到-Anthropic-服务（ERR-BAD-REQUEST）"><a href="#解决-Claude-Code-无法连接到-Anthropic-服务（ERR-BAD-REQUEST）"]]>
+    </summary>
+    <title>解决 Claude Code 无法连接到 Anthropic 服务（ERR BAD REQUEST）</title>
+    <updated>2026-11-14T10:15:55.187Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>沈歌宴</name>
+    </author>
+    <category term="AI 工具" scheme="https://shengeyan.github.io/categories/AI-%E5%B7%A5%E5%85%B7/"/>
+    <category term="Antigravity" scheme="https://shengeyan.github.io/tags/Antigravity/"/>
+    <category term="API" scheme="https://shengeyan.github.io/tags/API/"/>
+    <category term="Claude Code" scheme="https://shengeyan.github.io/tags/Claude-Code/"/>
+    <category term="工具" scheme="https://shengeyan.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    <id>https://shengeyan.github.io/2026/08126729.html</id>
+    <link href="https://shengeyan.github.io/2026/08126729.html"/>
+    <published>2026-08-12T10:30:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="Antigravity-多账号管理与反代-API-玩法"><a href="#Antigravity-多账号管理与反代-API-玩法" class="headerlink" title="Antigravity 多账号管理与反代 API]]>
+    </summary>
+    <title>Antigravity 多账号管理与反代 API 玩法</title>
+    <updated>2026-11-14T10:15:55.187Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>沈歌宴</name>
+    </author>
+    <category term="前端" scheme="https://shengeyan.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    <category term="认证" scheme="https://shengeyan.github.io/tags/%E8%AE%A4%E8%AF%81/"/>
+    <category term="Token" scheme="https://shengeyan.github.io/tags/Token/"/>
+    <category term="权限" scheme="https://shengeyan.github.io/tags/%E6%9D%83%E9%99%90/"/>
+    <category term="问题复盘" scheme="https://shengeyan.github.io/tags/%E9%97%AE%E9%A2%98%E5%A4%8D%E7%9B%98/"/>
+    <id>https://shengeyan.github.io/2026/08127623.html</id>
+    <link href="https://shengeyan.github.io/2026/08127623.html"/>
+    <published>2026-08-12T10:20:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="登录态为何”假”？Access-Token-过期与无感续期方案"><a href="#登录态为何”假”？Access-Token-过期与无感续期方案" class="headerlink" title="登录态为何”假”？Access Token]]>
+    </summary>
+    <title>登录态为何&quot;假&quot;？Access Token 过期与无感续期方案</title>
+    <updated>2026-11-14T10:15:55.187Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>沈歌宴</name>
+    </author>
+    <category term="前端" scheme="https://shengeyan.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    <category term="问题排查" scheme="https://shengeyan.github.io/tags/%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/"/>
+    <category term="Next.js" scheme="https://shengeyan.github.io/tags/Next-js/"/>
+    <category term="RSC" scheme="https://shengeyan.github.io/tags/RSC/"/>
+    <category term="Ant Design" scheme="https://shengeyan.github.io/tags/Ant-Design/"/>
+    <category term="React" scheme="https://shengeyan.github.io/tags/React/"/>
+    <id>https://shengeyan.github.io/2026/081239458.html</id>
+    <link href="https://shengeyan.github.io/2026/081239458.html"/>
+    <published>2026-08-12T10:10:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="Next-js-RSC-序列化异常：antd-复合组件导致的白屏排查"><a href="#Next-js-RSC-序列化异常：antd-复合组件导致的白屏排查" class="headerlink" title="Next.js RSC 序列化异常：antd]]>
+    </summary>
+    <title>Next.js RSC 序列化异常：antd 复合组件导致的白屏排查</title>
+    <updated>2026-11-14T10:15:55.187Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>沈歌宴</name>
+    </author>
+    <category term="前端" scheme="https://shengeyan.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    <category term="问题排查" scheme="https://shengeyan.github.io/tags/%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/"/>
+    <category term="Ant Design" scheme="https://shengeyan.github.io/tags/Ant-Design/"/>
+    <category term="React" scheme="https://shengeyan.github.io/tags/React/"/>
+    <category term="状态管理" scheme="https://shengeyan.github.io/tags/%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86/"/>
+    <category term="复盘" scheme="https://shengeyan.github.io/tags/%E5%A4%8D%E7%9B%98/"/>
+    <id>https://shengeyan.github.io/2026/081262378.html</id>
+    <link href="https://shengeyan.github.io/2026/081262378.html"/>
+    <published>2026-08-12T10:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="一次”保存后数据为空”排查：提交链路中的状态覆盖问题"><a href="#一次”保存后数据为空”排查：提交链路中的状态覆盖问题" class="headerlink"]]>
+    </summary>
+    <title>一次&quot;保存后数据为空&quot;排查：提交链路中的状态覆盖问题</title>
+    <updated>2026-11-14T10:15:55.188Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>沈歌宴</name>
+    </author>
+    <category term="前端" scheme="https://shengeyan.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    <category term="架构" scheme="https://shengeyan.github.io/tags/%E6%9E%B6%E6%9E%84/"/>
+    <category term="设计模式" scheme="https://shengeyan.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    <category term="React Router" scheme="https://shengeyan.github.io/tags/React-Router/"/>
+    <category term="路由" scheme="https://shengeyan.github.io/tags/%E8%B7%AF%E7%94%B1/"/>
+    <id>https://shengeyan.github.io/2026/0812485.html</id>
+    <link href="https://shengeyan.github.io/2026/0812485.html"/>
+    <published>2026-08-12T09:50:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="路由系统设计：React-Router-元数据驱动的-SPA-路由架构"><a href="#路由系统设计：React-Router-元数据驱动的-SPA-路由架构" class="headerlink" title="路由系统设计：React Router]]>
+    </summary>
+    <title>路由系统设计：React Router 元数据驱动的 SPA 路由架构</title>
+    <updated>2026-11-14T10:15:55.188Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>沈歌宴</name>
+    </author>
+    <category term="前端" scheme="https://shengeyan.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    <category term="React" scheme="https://shengeyan.github.io/tags/React/"/>
+    <category term="架构" scheme="https://shengeyan.github.io/tags/%E6%9E%B6%E6%9E%84/"/>
+    <category term="设计模式" scheme="https://shengeyan.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    <category term="i18n" scheme="https://shengeyan.github.io/tags/i18n/"/>
+    <id>https://shengeyan.github.io/2026/08124436.html</id>
+    <link href="https://shengeyan.github.io/2026/08124436.html"/>
+    <published>2026-08-12T09:40:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="国际化系统设计：用中文原文当-key-的低心智成本-i18n-方案"><a href="#国际化系统设计：用中文原文当-key-的低心智成本-i18n-方案" class="headerlink" title="国际化系统设计：用中文原文当 key 的低心智成本]]>
+    </summary>
+    <title>国际化系统设计：用中文原文当 key 的低心智成本 i18n 方案</title>
+    <updated>2026-11-14T10:15:55.188Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>沈歌宴</name>
+    </author>
+    <category term="前端" scheme="https://shengeyan.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    <category term="React" scheme="https://shengeyan.github.io/tags/React/"/>
+    <category term="权限" scheme="https://shengeyan.github.io/tags/%E6%9D%83%E9%99%90/"/>
+    <category term="架构" scheme="https://shengeyan.github.io/tags/%E6%9E%B6%E6%9E%84/"/>
+    <category term="设计模式" scheme="https://shengeyan.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    <id>https://shengeyan.github.io/2026/081215432.html</id>
+    <link href="https://shengeyan.github.io/2026/081215432.html"/>
+    <published>2026-08-12T09:30:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="前端权限系统设计：把后端角色摘要变成可判断的权限画像"><a href="#前端权限系统设计：把后端角色摘要变成可判断的权限画像" class="headerlink"]]>
+    </summary>
+    <title>前端权限系统设计：把后端角色摘要变成可判断的权限画像</title>
+    <updated>2026-11-14T10:15:55.188Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>沈歌宴</name>
+    </author>
+    <category term="前端" scheme="https://shengeyan.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    <category term="问题排查" scheme="https://shengeyan.github.io/tags/%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/"/>
+    <category term="权限" scheme="https://shengeyan.github.io/tags/%E6%9D%83%E9%99%90/"/>
+    <category term="缓存" scheme="https://shengeyan.github.io/tags/%E7%BC%93%E5%AD%98/"/>
+    <category term="复盘" scheme="https://shengeyan.github.io/tags/%E5%A4%8D%E7%9B%98/"/>
+    <id>https://shengeyan.github.io/2026/081210933.html</id>
+    <link href="https://shengeyan.github.io/2026/081210933.html"/>
+    <published>2026-08-12T09:20:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="权限缓存导致无权限：前端权限画像缓存失效问题复盘"><a href="#权限缓存导致无权限：前端权限画像缓存失效问题复盘" class="headerlink"]]>
+    </summary>
+    <title>权限缓存导致无权限：前端权限画像缓存失效问题复盘</title>
+    <updated>2026-11-14T10:15:55.188Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>沈歌宴</name>
+    </author>
+    <category term="前端" scheme="https://shengeyan.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    <category term="Vite" scheme="https://shengeyan.github.io/tags/Vite/"/>
+    <category term="Nginx" scheme="https://shengeyan.github.io/tags/Nginx/"/>
+    <category term="缓存" scheme="https://shengeyan.github.io/tags/%E7%BC%93%E5%AD%98/"/>
+    <category term="最佳实践" scheme="https://shengeyan.github.io/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/"/>
+    <id>https://shengeyan.github.io/2026/081263443.html</id>
+    <link href="https://shengeyan.github.io/2026/081263443.html"/>
+    <published>2026-08-12T09:10:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="Vite-静态资源缓存与回退规则：缺失资源应该返回-404-而不是-HTML"><a href="#Vite-静态资源缓存与回退规则：缺失资源应该返回-404-而不是-HTML" class="headerlink" title="Vite]]>
+    </summary>
+    <title>Vite 静态资源缓存与回退规则：缺失资源应该返回 404 而不是 HTML</title>
+    <updated>2026-11-14T10:15:55.188Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>沈歌宴</name>
+    </author>
+    <category term="前端" scheme="https://shengeyan.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    <category term="Vite" scheme="https://shengeyan.github.io/tags/Vite/"/>
+    <category term="最佳实践" scheme="https://shengeyan.github.io/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/"/>
+    <category term="SPA" scheme="https://shengeyan.github.io/tags/SPA/"/>
+    <category term="版本发布" scheme="https://shengeyan.github.io/tags/%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/"/>
+    <id>https://shengeyan.github.io/2026/081214516.html</id>
+    <link href="https://shengeyan.github.io/2026/081214516.html"/>
+    <published>2026-08-12T09:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="前端版本无感切换实战：发布后不打断用户的完整方案"><a href="#前端版本无感切换实战：发布后不打断用户的完整方案" class="headerlink"]]>
+    </summary>
+    <title>前端版本无感切换实战：发布后不打断用户的完整方案</title>
+    <updated>2026-11-14T10:15:55.188Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>沈歌宴</name>
+    </author>
+    <category term="动画效果 API" scheme="https://shengeyan.github.io/tags/%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C-API/"/>
+    <id>https://shengeyan.github.io/2024/082255867.html</id>
+    <link href="https://shengeyan.github.io/2024/082255867.html"/>
+    <published>2024-08-22T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="View-Transition-API"><a href="#View-Transition-API" class="headerlink" title="View Transition API"></a>View Transition API</h1><h2]]>
+    </summary>
+    <title>View Transition API</title>
+    <updated>2026-11-14T10:15:55.187Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>沈歌宴</name>
+    </author>
+    <category term="Fontend" scheme="https://shengeyan.github.io/tags/Fontend/"/>
+    <category term="Note" scheme="https://shengeyan.github.io/tags/Note/"/>
+    <id>https://shengeyan.github.io/2024/081535179.html</id>
+    <link href="https://shengeyan.github.io/2024/081535179.html"/>
+    <published>2024-08-15T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="前端小记（一）"><a href="#前端小记（一）" class="headerlink" title="前端小记（一）"></a>前端小记（一）</h1><h2 id="对-React-Fiber-的理解"><a]]>
+    </summary>
+    <title>前端小记（一）</title>
+    <updated>2026-11-14T10:15:55.187Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>沈歌宴</name>
+    </author>
+    <category term="前端" scheme="https://shengeyan.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    <id>https://shengeyan.github.io/2023/100626631.html</id>
+    <link href="https://shengeyan.github.io/2023/100626631.html"/>
+    <published>2023-10-06T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink"]]>
+    </summary>
+    <title>Bun</title>
+    <updated>2026-11-14T10:15:55.187Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>沈歌宴</name>
+    </author>
+    <category term="前端" scheme="https://shengeyan.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    <id>https://shengeyan.github.io/2023/100631884.html</id>
+    <link href="https://shengeyan.github.io/2023/100631884.html"/>
+    <published>2023-10-06T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><ul>
+<li>React组件的可能的状态：前端交互（RCC，React Client]]>
+    </summary>
+    <title>RSC理念</title>
+    <updated>2026-11-14T10:15:55.187Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>沈歌宴</name>
+    </author>
+    <category term="前端" scheme="https://shengeyan.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    <id>https://shengeyan.github.io/2023/100649532.html</id>
+    <link href="https://shengeyan.github.io/2023/100649532.html"/>
+    <published>2023-10-06T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>Vercel AI SDK 是一个开源库，旨在帮助开发者在 JavaScript 和 TypeScript]]>
+    </summary>
+    <title>Vercel Ai SDK</title>
+    <updated>2026-11-14T10:15:55.187Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>沈歌宴</name>
+    </author>
+    <category term="前端" scheme="https://shengeyan.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    <id>https://shengeyan.github.io/2023/100621827.html</id>
+    <link href="https://shengeyan.github.io/2023/100621827.html"/>
+    <published>2023-10-06T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="简介"><a href="#简介" class="headerlink"]]>
+    </summary>
+    <title>WebTransport</title>
+    <updated>2026-11-14T10:15:55.188Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>沈歌宴</name>
+    </author>
+    <category term="life" scheme="https://shengeyan.github.io/tags/life/"/>
+    <id>https://shengeyan.github.io/2023/050329521.html</id>
+    <link href="https://shengeyan.github.io/2023/050329521.html"/>
+    <published>2023-05-03T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="二〇二三年-五一节"><a href="#二〇二三年-五一节" class="headerlink" title="二〇二三年 五一节"></a>二〇二三年 五一节</h2><p>​	特种兵出行贵州辗转重庆</p>
+<p>​	心路历程：</p>
+<p><img]]>
+    </summary>
+    <title>二〇二三年 五一节</title>
+    <updated>2026-11-14T10:15:55.188Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>沈歌宴</name>
+    </author>
+    <category term="前端" scheme="https://shengeyan.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    <id>https://shengeyan.github.io/2023/04283651.html</id>
+    <link href="https://shengeyan.github.io/2023/04283651.html"/>
+    <published>2023-04-28T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="Websocket"><a href="#Websocket" class="headerlink" title="Websocket"></a>Websocket</h1><h2 id="应用场景"><a href="#应用场景"]]>
+    </summary>
+    <title>
+      <![CDATA[Websocket&WebRTC]]>
+    </title>
+    <updated>2026-11-14T10:15:55.188Z</updated>
+  </entry>
+</feed>
